@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Frostweep Games | %UNITY_WEB_NAME%</title>
+  </head>
+  <body>
+	<center><p class="footer">Powered by <a href="http://frostweep.ru/" title="Go to frostweep.ru">Frostweep Games</a></p></center>
+    <center><canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="%UNITY_HEIGHT%px" width="%UNITY_WIDTH%px"></canvas></center>
+    %UNITY_WEBGL_LOADER_GLUE%
+	
+	<script type='text/javascript'>
+  var NativeMicrophoneLibModule = {
+    	audioContext: null,
+		microphone_stream: null,
+		script_processor_node: null,
+		BUFFER_SIZE: 16384,
+  };
+</script>
+<script>
+  Module.onRuntimeInitialized = function() {
+    SendMessage = function(gameObject, func, param) {
+      if (param === undefined)
+        Module.ccall("SendMessage", null, ["string", "string"], [gameObject, func]);
+      else if (typeof param === "string")
+        Module.ccall("SendMessageString", null, ["string", "string", "string"], [gameObject, func, param]);
+      else if (typeof param === "number")
+        Module.ccall("SendMessageFloat", null, ["string", "string", "number"], [gameObject, func, param]);
+      else
+        throw "" + param + " is does not have a type which is supported by SendMessage.";
+    }
+  }
+</script>
+  </body>
+</html>

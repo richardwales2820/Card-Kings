@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card Kings.Plugins", "Card Kings.Plugins.csproj", "{9DC07BCE-DB81-49C9-B5A3-5B8D55AEC980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card Kings", "Card Kings.csproj", "{3BCDDE15-DDE2-83C9-81E0-239EBF220ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card Kings.Editor.Plugins", "Card Kings.Editor.Plugins.csproj", "{89F5DFB3-CFB9-A5D4-27E0-EDD4EE1829FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Card Kings.Editor", "Card Kings.Editor.csproj", "{2ADA46B1-D4D8-5C57-36CF-A99014CB633F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DC07BCE-DB81-49C9-B5A3-5B8D55AEC980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC07BCE-DB81-49C9-B5A3-5B8D55AEC980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC07BCE-DB81-49C9-B5A3-5B8D55AEC980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC07BCE-DB81-49C9-B5A3-5B8D55AEC980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BCDDE15-DDE2-83C9-81E0-239EBF220ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BCDDE15-DDE2-83C9-81E0-239EBF220ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BCDDE15-DDE2-83C9-81E0-239EBF220ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BCDDE15-DDE2-83C9-81E0-239EBF220ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F5DFB3-CFB9-A5D4-27E0-EDD4EE1829FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F5DFB3-CFB9-A5D4-27E0-EDD4EE1829FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F5DFB3-CFB9-A5D4-27E0-EDD4EE1829FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F5DFB3-CFB9-A5D4-27E0-EDD4EE1829FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADA46B1-D4D8-5C57-36CF-A99014CB633F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADA46B1-D4D8-5C57-36CF-A99014CB633F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADA46B1-D4D8-5C57-36CF-A99014CB633F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADA46B1-D4D8-5C57-36CF-A99014CB633F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

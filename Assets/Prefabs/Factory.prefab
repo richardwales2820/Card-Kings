@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1054871572945692}
+  m_IsPrefabParent: 1
+--- !u!1 &1054871572945692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4508416010140896}
+  - component: {fileID: 114648592391917702}
+  m_Layer: 0
+  m_Name: Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4508416010140896
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054871572945692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114648592391917702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054871572945692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8b5215e15efa1469a360d32b2d1648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 1998036946006918, guid: 28fb9d406c95f6341aefbf22a2743188,
+    type: 2}
+  managerPrefab: {fileID: 1875950755631180, guid: 1bb3e1efc8cf8814ba3a933c3d66c4f9,
+    type: 2}
+  enemyPrefab: {fileID: 1027374941006924, guid: ec235b03b02d16b4c8cd357e3104acf2,
+    type: 2}
+  foldButton: {fileID: 1482571487912470, guid: da0f82ade3108804d9e95d11587f65d0, type: 2}
+  raiseBut: {fileID: 1772525933675740, guid: 772070b5678b647c8b98faeae376f9a1, type: 2}
+  callBut: {fileID: 1140071096192062, guid: dfbd75389177c4551b6e8354801ce174, type: 2}
+  betBut: {fileID: 1576121669618648, guid: a92dca8aaea7049d887d22d0db78779b, type: 2}
+  checkBut: {fileID: 1929795555050848, guid: 422a726158cd243b7a258552e9fd1de8, type: 2}
+  slider: {fileID: 1042230409942672, guid: c281065c95c1f7941a9d1aadf08aeee3, type: 2}
+  sliderText: {fileID: 1328961907604634, guid: bfe46afc321ba464eb17161c527b4f29, type: 2}
+  playerChipsText: {fileID: 1475849645413224, guid: 8b65e1a2808bb474fb9aaefd44e2d30f,
+    type: 2}
+  card1: {fileID: 0}
+  card2: {fileID: 0}
+  voice: {fileID: 1776205215501748, guid: bc4f3126a6f2749cfba9d911dfa3359b, type: 2}
